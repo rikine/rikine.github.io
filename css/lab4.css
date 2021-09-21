@@ -1,4 +1,123 @@
 body {
-    margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
+header {
+    display: flex;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.header_nav {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1.1 101% 0.2;
+
+    /* flex-grow: 1.1;
+    flex-basis: 101%;
+    flex-shrink: 0.2; */
+
+    align-self: center;
+
+    max-width: fit-content;
+}
+
+section {
+    z-index: 2;
+}
+
+main {
+    display: flex;
+}
+
+main section {
+    flex-grow: 2;
+}
+
+main aside {
+    order: 1;
+    height: fit-content;
+    flex-grow: 1;
+    flex-shrink: 0.5;
+}
+
+.line {
+    display: flex;
+}
+
+.line div {
+    align-self: center;
+}
+
+.me {
+    position: relative;
+    /* flex-basis: 5%;
+    flex-shrink: 0; */
+    align-self: center;
+}
+
+.my-name {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+.me img {
+    height: auto;
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+
+    .me {
+        width: 50%;
+    }
+
+    .header_nav {
+        flex-direction: row;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main aside {
+        order: 0;
+    }
+
+    .header_nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .me img {
+        height: auto;
+        width: 20vw;
+    }
+}
+
+#computer {
+    margin-right: 5px;
+    width: 33%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}

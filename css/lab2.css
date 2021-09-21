@@ -1,6 +1,7 @@
 body {
+    margin: 10px;
+
     border: 1px solid black;
-    font-family: 'Times New Roman', Georgia, Times, sans-serif;
 }
 
 .me {
@@ -8,25 +9,41 @@ body {
     padding: 5px;
 }
 
+.me img {
+    border-radius: 10px;
+}
+
 .my-name {
     padding: 5px 3px;
+
+    /* min-width: 100%; */
 
     background-color: rgba(57, 60, 126, 0.5);
 
     -webkit-box-shadow: 11px -10px 35px 10px rgba(34, 60, 80, 0.18);
     -moz-box-shadow: 11px -10px 35px 10px rgba(34, 60, 80, 0.18);
     box-shadow: 11px -10px 35px 10px rgba(34, 60, 80, 0.18);
+
+    border-radius: 3%;
+}
+
+.about {
+    border: 10px solid rgba(34, 60, 80, 0.2);
+
+    -webkit-box-shadow: 0px 0px 47px 15px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 47px 15px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 47px 15px rgba(34, 60, 80, 0.2);
 }
 
 nav > section {
-    margin: 7px;
+    margin: 4px;
 }
 
 #world, #vk, #tg {
     background-color: aliceblue;
 }
 
-main > section {
+main section > section {
     margin: 15px;
     padding: 5px;
 
@@ -39,6 +56,10 @@ main > section {
     margin-right: 10px;
 }
 
+.big-block {
+    margin-top: 10px;
+}
+
 nav {
     background-color: rgb(228, 228, 228);
 }
@@ -49,7 +70,7 @@ li, dd {
 
 aside {
     margin: 15px;
-    padding: 5px;
+    padding: 0px;
 
     -webkit-box-shadow: 0px 0px 47px 15px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 0px 0px 47px 15px rgba(34, 60, 80, 0.2);
@@ -58,6 +79,7 @@ aside {
 
 aside section {
     margin-top: 10px;
+    padding: 5px;
 
     -webkit-box-shadow: 0px 0px 47px 15px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 0px 0px 47px 15px rgba(34, 60, 80, 0.2);
@@ -66,4 +88,39 @@ aside section {
 
 aside section:first-child {
     margin-top: 0;
+}
+
+.skills {
+    margin-top: 10px;
+}
+
+cite {
+    padding-left: 15px;
+}
+
+.line h1, header section article {
+    margin: 10px;
+    padding: 5px;
+}
+
+.line div {
+    width: 35%;
+    height: 1px;
+    background: gray;
+}
+
+dl div {
+    margin-top: 5px;
+}
+
+.projects {
+    padding: 0;
+}
+
+.small-block::after {
+    content: "";
+    width: 60%;
+    height: 1px;
+    background-color: black;
+    display: block;
 }

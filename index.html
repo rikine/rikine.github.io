@@ -17,12 +17,8 @@
 
 <body>
     <header>
-        <h1>
-            Profile Shestakov Nikita
-        </h1>
-
         <div class="me">
-            <img src="./Макет.jpg" alt="Picture of me" width="300px" height="300px">
+            <img src="./img/wzpOsuT0NT4.jpg" alt="Picture of me">
             <div class="my-name">
                 <span>Shestakov Nikita</span>
                 <br>
@@ -30,22 +26,30 @@
             </div>
         </div>
 
-        <article class="about">
-            About me
-            <br>
-            I love programming, learning new things and developing my knowledge. Was engaged in sports programming and
-            participated in the olympiads. I do everything on time, always positive and charge others with it. I am
-            studying in mail
-            at the position of IOS developer. I know swift, C++, C#, .NET well and basic things like GIT, HTML5, CSS3,
-            SQL.
-        </article>
+        <section class="about-me">
+            <div class="line">
+                <h1>
+                    Profile Shestakov Nikita
+                </h1>
+                <div></div>
+            </div>
+            <article class="about">
+                I love programming, learning new things and developing my knowledge. Was engaged in sports programming
+                and
+                participated in the olympiads. I do everything on time, always positive and charge others with it. I am
+                studying in mail
+                at the position of IOS developer. I know swift, C++, C#, .NET well and basic things like GIT, HTML5,
+                CSS3,
+                SQL.
+            </article>
+        </section>
 
-        <nav>
+        <nav class="header_nav">
             <section>
-                <img src="./img/wondicon-ui-free-website_111210.ico" alt="world" height="40px" width="40px">: Russia,
-                Saint-Petersburg
+                <a href="https://yandex.ru/maps/geo/sankt_peterburg/53000093/?from=tabbar&ll=30.092322%2C59.940675&source=serp_navig&z=9"
+                    title="my position"><img src="./img/wondicon-ui-free-website_111210.ico" alt="world" height="40px"
+                        width="40px"></a>
             </section>
-
             <section>
                 <a href="http://github.com/rikine" title="github"><img src="./img/github-logo_icon-icons.com_73546.ico"
                         alt="Github" width="40px" height="40px"></a>
@@ -70,16 +74,17 @@
                 <h2>
                     My skills
                 </h2>
-
-                <ul class="skills">
-                    <li>Git</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Swift</li>
-                    <li>SQL</li>
-                    <li>C++</li>
-                    <li>C# and .NET</li>
-                </ul>
+                <section>
+                    <ul class="skills">
+                        <li>Git</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Swift</li>
+                        <li>SQL</li>
+                        <li>C++</li>
+                        <li>C# and .NET</li>
+                    </ul>
+                </section>
             </section>
 
             <section>
@@ -87,146 +92,163 @@
                     My Best GH Projects
                 </h2>
 
-                <dl>
-                    <dt><a href="https://github.com/rikine/Easy-Project-Extension-VS-Code"
-                            title="Extension for C++ VSCode">Extension for C++
-                            VSCode</a></dt>
-                    <dd>Add simple work with C++ projects in VS Code with only with extension.</dd>
+                <section class="projects">
+                    <dl>
+                        <div>
+                            <dt><a href="https://github.com/rikine/Easy-Project-Extension-VS-Code"
+                                    title="Extension for C++ VSCode">Extension for C++
+                                    VSCode</a></dt>
+                            <dd>Add simple work with C++ projects in VS Code with only with extension.</dd>
+                        </div>
 
-                    <dt><a href="https://github.com/rikine/Programming-ITMO" title="University Labs C++">University Labs
-                            C++</a></dt>
-                    <dd>How I learned C++. Last work is Rubik's Cube in 3D with solving.</dd>
+                        <div>
+                            <dt><a href="https://github.com/rikine/Programming-ITMO"
+                                    title="University Labs C++">University
+                                    Labs
+                                    C++</a></dt>
+                            <dd>How I learned C++. Last work is Rubik's Cube in 3D with solving.</dd>
+                        </div>
 
-                    <dt><a href="https://github.com/rikine/Graphics" title="Work with graphics">Work with graphics</a>
-                    </dt>
-                    <dd>Work with different color spaces</dd>
+                        <div>
+                            <dt><a href="https://github.com/rikine/Graphics" title="Work with graphics">Work with
+                                    graphics</a>
+                            </dt>
+                            <dd>Work with different color spaces</dd>
+                        </div>
 
-                    <dt><a href="https://github.com/rikine/Algorithms-and-DS-ITMO" title="Algorithms and DS">Algorithms
-                            and
-                            DS</a></dt>
-                    <dd>
-                        Algorithms and Data Structures course
-                        <br>
-                        <b>Themes</b>:
-                        <ol>
-                            <li>Introduction</li>
-                            <li>Sorting algorithms</li>
-                            <li>Binary heap and binary search</li>
-                            <li>Set, Map</li>
-                            <li>Trees and AVL trees</li>
-                            <li>Everything with graphs</li>
-                        </ol>
-                    </dd>
-                </dl>
+                        <div>
+                            <dt><a href="https://github.com/rikine/Algorithms-and-DS-ITMO"
+                                    title="Algorithms and DS">Algorithms
+                                    and
+                                    DS</a></dt>
+                            <dd>
+                                Algorithms and Data Structures course
+                                <br>
+                                <b>Themes</b>:
+                                <ol>
+                                    <li>Introduction</li>
+                                    <li>Sorting algorithms</li>
+                                    <li>Binary heap and binary search</li>
+                                    <li>Set, Map</li>
+                                    <li>Trees and AVL trees</li>
+                                    <li>Everything with graphs</li>
+                                </ol>
+                            </dd>
+                        </div>
+                    </dl>
+                </section>
             </section>
         </aside>
 
         <section>
-            <h2>
-                Education
-            </h2>
-
             <section>
-                <div class="small-block">
-                    <p>
-                        <strong>ITMO University</strong>
-                        <br>
-                        <time datetime="2019-09-01">2019-2023</time>
-                    </p>
-                </div>
+                <h2>
+                    Education
+                </h2>
 
-                <div class="big-block">
-                    <p>
-                        Faculty of Information Technologies and Programming. Got basics and advanced knowledge of
-                        computer science.
-                        Almost every important project in university you can see in my github.
-                    </p>
-                </div>
+                <section>
+                    <div class="small-block">
+                        <p>
+                            <strong>ITMO University</strong>
+                            <br>
+                            <time datetime="2019-09-01">2019-2023</time>
+                        </p>
+                    </div>
+
+                    <div class="big-block">
+                        <p>
+                            Faculty of Information Technologies and Programming. Got basics and advanced knowledge of
+                            computer science.
+                            Almost every important project in university you can see in my github.
+                        </p>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="small-block">
+                        <p>
+                            <strong>Mail</strong>
+                            <br>
+                            <time datetime="2021-09-22">september 2021 - january 2022</time>
+                        </p>
+                    </div>
+
+                    <div class="big-block">
+                        <p>
+                            After passing the tests, I passed to the IOS training.
+                            To be continued
+                        </p>
+                    </div>
+                </section>
             </section>
 
             <section>
-                <div class="small-block">
-                    <p>
-                        <strong>Mail</strong>
-                        <br>
-                        <time datetime="2021-09-22">september 2021 - january 2022</time>
-                    </p>
-                </div>
+                <h2>
+                    Experience
+                </h2>
 
-                <div class="big-block">
-                    <p>
-                        After passing the tests, I passed to the IOS training.
-                        To be continued
-                    </p>
-                </div>
-            </section>
-        </section>
+                <section>
+                    <div class="small-block">
+                        <p>
+                            <del><strong>-</strong></del>
+                            <br>
+                            <ins><strong>Cool Company</strong></ins>
+                        </p>
+                    </div>
 
-        <section>
-            <h2>
-                Experience
-            </h2>
-
-            <section>
-                <div class="small-block">
-                    <p>
-                        <del><strong>-</strong></del>
-                        <br>
-                        <ins><strong>Cool Company</strong></ins>
-                    </p>
-                </div>
-
-                <div class="big-block">
-                    <p>
-                        <del>No experience yet🥺</del>
-                        <br>
-                        <ins>Cool Company</ins>
-                    </p>
-                </div>
-            </section>
-        </section>
-
-        <section>
-            <h2>
-                Sports Programming
-            </h2>
-
-            <section>
-                <div class="small-block">
-                    <p>
-                        <a href="https://codeforces.com/profile/rikine"
-                            title="Codeforces"><strong>Codeforces</strong></a>
-                    </p>
-                </div>
-
-                <div class="big-block">
-                    <p>
-                        I was in summer and winter camp and we learned how to solve sport programming tasks very fast
-                        and with high efficiency
-                    </p>
-                </div>
+                    <div class="big-block">
+                        <p>
+                            <del>No experience yet🥺</del>
+                            <br>
+                            <ins>Cool Company</ins>
+                        </p>
+                    </div>
+                </section>
             </section>
 
             <section>
-                <div class="small-block">
-                    <p>
-                        <a href="https://acm.timus.ru/author.aspx?id=236032" title="ACM Timus"><strong>ACM
-                                Timus</strong></a>
-                    </p>
-                </div>
+                <h2>
+                    Sports Programming
+                </h2>
 
-                <div class="big-block">
-                    <p>
-                        Also I was in sport programming school with a cool teacher and I learned C++ and solve 30+
-                        tasks on this platform.
-                    </p>
-                </div>
+                <section>
+                    <div class="small-block">
+                        <p>
+                            <a href="https://codeforces.com/profile/rikine"
+                                title="Codeforces"><strong>Codeforces</strong></a>
+                        </p>
+                    </div>
+
+                    <div class="big-block">
+                        <p>
+                            I was in summer and winter camp and we learned how to solve sport programming tasks very
+                            fast
+                            and with high efficiency
+                        </p>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="small-block">
+                        <p>
+                            <a href="https://acm.timus.ru/author.aspx?id=236032" title="ACM Timus"><strong>ACM
+                                    Timus</strong></a>
+                        </p>
+                    </div>
+
+                    <div class="big-block">
+                        <p>
+                            Also I was in sport programming school with a cool teacher and I learned C++ and solve 30+
+                            tasks on this platform.
+                        </p>
+                    </div>
+                </section>
             </section>
-        </section>
 
-        <section>
-            <h2>Part of my code, where I connected solving and implementation of Rubik's Cude</h2>
-            <pre><code>std::vector&lt;uchar&gt; solve(std::array&lt;std::array&lt;uchar, 9&gt;, 6> &colors) 
+            <section>
+                <h2>Part of my code, where I connected solving and implementation of Rubik's Cude</h2>
+                <section>
+                    <pre><code>std::vector&lt;uchar&gt; solve(std::array&lt;std::array&lt;uchar, 9&gt;, 6> &colors) 
 {
     Rubik rubik;
     std::vector&lt;uchar&gt; solution;
@@ -237,12 +259,14 @@
     return solution;
 }
 </code></pre>
-        </section>
+                </section>
+            </section>
 
-        <section>
-            <h2>My favorite ASCII</h2>
+            <section>
+                <h2>My favorite ASCII</h2>
 
-            <pre>
+                <section>
+                    <pre>
 //                   _ooOoo_
 //                  o8888888o
 //                  88" . "88
@@ -265,29 +289,59 @@
 //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 //         God Bless        No Bugs
             </pre>
-        </section>
+                </section>
+            </section>
 
-        <section>
-            <blockquote>
-                <p>
-                    <q>
-                        The way to everything is through the heart.
-                        <br>
-                        (x<sup>2</sup> + 2y<sup>2</sup> - 1)<sup>3</sup> - x<sup>2</sup>y<sup>3</sup> = 0
-                    </q>
-                </p>
-                <cite>
-                    Shestakov Nikita
-                </cite>
-            </blockquote>
+            <section>
+                <h2>Computer programming is</h2>
+
+                <section>
+                    <p>
+                        <img src="./img/why-learn-programming.jpeg" alt="computer" id="computer">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ipsa, expedita vitae eius
+                        cumque aut, voluptatum facilis incidunt praesentium hic, iusto tenetur deserunt reprehenderit
+                        quod dignissimos? Exercitationem voluptate ea fugiat.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate suscipit nisi repellat
+                        quibusdam harum maxime omnis minima eum neque ipsam, nemo, cupiditate ut dolorem porro quidem
+                        non eligendi consequatur excepturi.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa explicabo, cupiditate veritatis
+                        magni repellendus officia illum tenetur a soluta praesentium optio repellat necessitatibus
+                        laboriosam ducimus blanditiis libero incidunt voluptatibus ipsum!
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, deleniti. A quia corporis
+                        cumque distinctio harum ullam voluptatibus, error sit magni doloremque, consectetur, nihil esse
+                        rerum libero obcaecati dolorum ipsam.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, et ratione at laborum aut totam
+                        ut eius temporibus labore minus velit, laboriosam accusantium ad nobis ipsum expedita maxime
+                        rerum odio?
+                    </p>
+                </section>
+                <div class="clear"></div>
+            </section>
+
+            <section>
+                <blockquote>
+                    <p>
+                        <q>
+                            The way to everything is through the heart.
+                            <br>
+                            (x<sup>2</sup> + 2y<sup>2</sup> - 1)<sup>3</sup> - x<sup>2</sup>y<sup>3</sup> = 0
+                        </q>
+                    </p>
+                    <cite>
+                        Shestakov Nikita
+                    </cite>
+                </blockquote>
+            </section>
         </section>
     </main>
 
     <footer>
         <nav>
             <section>
-                <img src="./img/wondicon-ui-free-website_111210.ico" alt="world" height="40px" width="40px">: Russia,
-                Saint-Petersburg
+                <a href="https://yandex.ru/maps/geo/sankt_peterburg/53000093/?from=tabbar&ll=30.092322%2C59.940675&source=serp_navig&z=9"
+                    title="my position"><img src="./img/wondicon-ui-free-website_111210.ico" alt="world" height="40px"
+                        width="40px"> Russia,
+                    Saint-Petersburg</a>
             </section>
 
             <section>

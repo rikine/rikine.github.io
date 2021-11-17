@@ -1,0 +1,29 @@
+.modal_h2 {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+#from_user {
+    width: 90%;
+    margin: 10px;
+}
+
+#title {
+    width: 90%;
+    margin: 10px;
+}
+
+#text {
+    width: 90%;
+    margin: 10px;
+    resize: vertical;
+}
+
+.send_btn {
+    margin: 10px;
+}
+
+.hystmodal__styled {
+    text-align: center;
+}

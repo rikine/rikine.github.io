@@ -12,10 +12,35 @@
     <link rel="stylesheet" href="css/lab2.css">
     <link rel="stylesheet" href="css/lab3.css">
     <link rel="stylesheet" href="css/lab4.css">
-
+    <link rel="stylesheet" href="css/hystmodal.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/iziToast.min.css">
 </head>
 
 <body>
+    <div class="hystmodal" id="myModal" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <button data-hystclose class="hystmodal__close">Закрыть</button>
+                <div class="hystmodal__styled">
+                    <h2 class="modal_h2">Write me</h2>
+                    <p>
+                        <input type="text" name="from_user" id="from_user" placeholder="From who?">
+                    </p>
+                    <p>
+                        <input type="text" name="title" id="title" placeholder="Your title">
+                    </p>
+                    <p>
+                        <textarea name="text" id="text" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </p>
+                    <p>
+                        <button class="send_btn">Send</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <header>
         <div class="me">
             <img src="./img/wzpOsuT0NT4.jpg" alt="Picture of me">
@@ -369,9 +394,15 @@
                 <a href="http://t.me/rikine1" title="telegram"><img src="./img/telegram_icon-icons.com_72055.ico"
                         alt="Github" width="40px" height="40px"></a>
             </section>
+            <section>
+                <a href="#" data-hystmodal="#myModal">Write me a message</a>
+            </section>
         </nav>
     </footer>
 
+    <script src="js/hystmodal.min.js"></script>
+    <script src="js/iziToast.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
